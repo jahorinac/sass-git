@@ -9,6 +9,12 @@ $mainContainerWidth:	900px;
 
 $i:1;
 
+
+/*
+
+that it is
+ */
+
 @mixin even-rows {
 	@while $i < 10 {
 		@if $i % 2 == 0 {
